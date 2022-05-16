@@ -1,0 +1,21 @@
+th,td {
+    border: 1px solid #000;
+    padding: 5px;
+    background-position: 25%;
+    background-color: rgba(88, 70, 80, 0.349);
+
+}
+.qty{
+    width: 150px;
+}
+.price{
+    width: 150px;
+}
+.sum{
+    width: 150px;
+}
+table{
+    margin: auto;
+    text-align: center;
+    width: 1000px;
+}

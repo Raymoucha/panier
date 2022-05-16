@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Products</th>
+          <th>QTY</th>
+          <th>PRICE</th>
+          <th>SUM</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <!-- Shopping cards -->
+            <div class="shopping-cards">
+              <div class="shopping-card">
+                <!-- Product image of scarf -->
+                <span class="product-image">
+                  <img
+                    src="./images/Scarf degradée vioée Mira.jpg"
+                    alt="scarf dégradée /Noir et Rose/90cm/Marque Mira"
+                  />
+                </span>
+                <!-- Product description -->
+                <p>
+                  scarf dégradée /Noir et Rose/90cm/Marque Mira</p>
+              </div>
+            </div>
+          </td>
+          <td><input class="qty" size="1" /></td>
+          <td class="price">35.00 TND</td>
+          <td class="sum">0</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="shopping-card">
+                    <!-- Product image of pince scarf magnétique -->
+                    <span class="product-image">
+                      <img
+                        src="./images/pince scarf magnétique.jpg"
+                        alt="Pince motif/ magnétique / 10 cm / Rouge"
+                      />
+                    </span>
+                    <!-- Product description -->
+                    <p>Pince motif/ magnétique / 10 cm / Rouge</p>
+                  </div>
+            </td>
+          <td><input class="qty" size="1" /></td>
+          <td class="price">15.00 TND</td>
+          <td class="sum">0</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="shopping-card">
+                    <!-- Product image of pince simple colorée  -->
+                    <span class="product-image">
+                      <img
+                        src="./images/pince simple colorée.jpg"
+                        alt="pince simple colorée / Noir"
+                      />
+                    </span>
+                    <!-- Product description -->
+                    <p>pince simple colorée / Noir</p>
+                  </div>
+            </td>
+          <td><input class="qty" size="1" /></td>
+          <td class="price">12.00 TND</td>
+          <td class="sum">0</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="shopping-card">
+                    <!-- Product image of  -->
+                    <span class="product-image">
+                      <img
+                        src="./images/pince prestige.jpg"
+                        alt="pince prestige pour scarf/pailleté/blanc"
+                      />
+                    </span>
+                    <!-- Product description -->
+                    <p>pince prestige pour scarf/pailleté/blanc</p>
+                  </div>
+            </td>
+          <td><input class="qty" size="1" /></td>
+          <td class="price">16.50 TND </td>
+          <td class="sum">0</td>
+        </tr>
+        <tr>
+          <td colspan="3">Total TND </td>
+          <td id="total"></td>
+        </tr>
+      </tbody>
+    </table>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
